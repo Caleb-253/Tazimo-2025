@@ -1,0 +1,3 @@
+[console_scripts]
+cmdvel_to_serial = cmdvel_to_serial.cmdvel_to_serial_node:main
+

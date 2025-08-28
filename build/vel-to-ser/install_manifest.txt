@@ -1,0 +1,16 @@
+/home/tazimo/tazimo_ws/install/vel-to-ser/lib/vel-to-ser/cmdvel_to_serial_node.py
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/package_run_dependencies/vel-to-ser
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/parent_prefix_path/vel-to-ser
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/ament_prefix_path.sh
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/ament_prefix_path.dsv
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/path.sh
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/path.dsv
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.bash
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.sh
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.zsh
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.dsv
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.dsv
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/packages/vel-to-ser
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/cmake/vel-to-serConfig.cmake
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/cmake/vel-to-serConfig-version.cmake
+/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.xml

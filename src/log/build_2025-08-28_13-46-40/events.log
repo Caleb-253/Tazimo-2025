@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.001499] (cmdvel_to_serial) JobQueued: {'identifier': 'cmdvel_to_serial', 'dependencies': OrderedDict()}
+[0.001750] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.001909] (encoder_to_odom) JobQueued: {'identifier': 'encoder_to_odom', 'dependencies': OrderedDict()}
+[0.002054] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002196] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.002341] (vel-to-ser) JobQueued: {'identifier': 'vel-to-ser', 'dependencies': OrderedDict()}
+[0.002424] (cmdvel_to_serial) JobStarted: {'identifier': 'cmdvel_to_serial'}
+[0.044769] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.084456] (encoder_to_odom) JobStarted: {'identifier': 'encoder_to_odom'}
+[0.097724] (-) TimerEvent: {}
+[0.120669] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.197896] (-) TimerEvent: {}
+[0.298553] (-) TimerEvent: {}
+[0.399277] (-) TimerEvent: {}
+[0.499973] (-) TimerEvent: {}
+[0.600697] (-) TimerEvent: {}
+[0.701351] (-) TimerEvent: {}
+[0.802008] (-) TimerEvent: {}
+[0.902656] (-) TimerEvent: {}
+[1.003309] (-) TimerEvent: {}
+[1.103999] (-) TimerEvent: {}
+[1.204691] (-) TimerEvent: {}
+[1.305329] (-) TimerEvent: {}
+[1.406057] (-) TimerEvent: {}
+[1.507245] (-) TimerEvent: {}
+[1.607991] (-) TimerEvent: {}
+[1.708821] (-) TimerEvent: {}
+[1.809505] (-) TimerEvent: {}
+[1.867471] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[1.909677] (-) TimerEvent: {}
+[2.010408] (-) TimerEvent: {}
+[2.111167] (-) TimerEvent: {}
+[2.211987] (-) TimerEvent: {}
+[2.312725] (-) TimerEvent: {}
+[2.413348] (-) TimerEvent: {}
+[2.514043] (-) TimerEvent: {}
+[2.614713] (-) TimerEvent: {}
+[2.715392] (-) TimerEvent: {}
+[2.816138] (-) TimerEvent: {}
+[2.916891] (-) TimerEvent: {}
+[3.017526] (-) TimerEvent: {}
+[3.118253] (-) TimerEvent: {}
+[3.148544] (cmdvel_to_serial) JobEnded: {'identifier': 'cmdvel_to_serial', 'rc': 'SIGINT'}
+[3.152233] (encoder_to_odom) JobEnded: {'identifier': 'encoder_to_odom', 'rc': 'SIGINT'}
+[3.153622] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 'SIGINT'}
+[3.163629] (sllidar_ros2) JobSkipped: {'identifier': 'sllidar_ros2'}
+[3.163882] (vel-to-ser) JobSkipped: {'identifier': 'vel-to-ser'}
+[3.163998] (-) EventReactorShutdown: {}

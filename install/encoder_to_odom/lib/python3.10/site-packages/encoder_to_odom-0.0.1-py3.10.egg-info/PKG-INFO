@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: encoder-to-odom
+Version: 0.0.1
+Summary: Reads encoder ticks from serial and publishes /odom and TF.
+Home-page: UNKNOWN
+Maintainer: tazimo
+Maintainer-email: example@example.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

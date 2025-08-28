@@ -1,0 +1,4 @@
+source;share/vel-to-ser/local_setup.bash
+source;share/vel-to-ser/local_setup.dsv
+source;share/vel-to-ser/local_setup.sh
+source;share/vel-to-ser/local_setup.zsh

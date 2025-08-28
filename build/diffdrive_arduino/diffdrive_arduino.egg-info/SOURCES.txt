@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/diffdrive_arduino/diffdrive_arduino.egg-info/PKG-INFO
+../../build/diffdrive_arduino/diffdrive_arduino.egg-info/SOURCES.txt
+../../build/diffdrive_arduino/diffdrive_arduino.egg-info/dependency_links.txt
+../../build/diffdrive_arduino/diffdrive_arduino.egg-info/entry_points.txt
+../../build/diffdrive_arduino/diffdrive_arduino.egg-info/requires.txt
+../../build/diffdrive_arduino/diffdrive_arduino.egg-info/top_level.txt
+../../build/diffdrive_arduino/diffdrive_arduino.egg-info/zip-safe
+diffdrive_arduino/__init__.py
+resource/diffdrive_arduino
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,9 @@
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/uninstall.dir
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/vel-to-ser_uninstall.dir
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/test.dir
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/edit_cache.dir
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/rebuild_cache.dir
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/list_install_components.dir
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/install.dir
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/install/local.dir
+/home/tazimo/tazimo_ws/build/vel-to-ser/CMakeFiles/install/strip.dir

@@ -1,0 +1,3 @@
+[console_scripts]
+diffdrive_node = diffdrive_arduino.diffdrive_node:main
+
