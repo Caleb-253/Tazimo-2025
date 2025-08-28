@@ -1,0 +1,15 @@
+/home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/package_run_dependencies/DiffDr
+/home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/parent_prefix_path/DiffDr
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/ament_prefix_path.sh
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/ament_prefix_path.dsv
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/path.sh
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/path.dsv
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.bash
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.sh
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.zsh
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.dsv
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.dsv
+/home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/packages/DiffDr
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/cmake/DiffDrConfig.cmake
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/cmake/DiffDrConfig-version.cmake
+/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.xml

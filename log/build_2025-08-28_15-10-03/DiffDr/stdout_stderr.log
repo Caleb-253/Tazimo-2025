@@ -1,0 +1,42 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+WARNING: Package name "DiffDr" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tazimo/tazimo_ws/build/DiffDr
+-- Install configuration: ""
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/package_run_dependencies/DiffDr
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/parent_prefix_path/DiffDr
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/ament_prefix_path.sh
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/ament_prefix_path.dsv
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/path.sh
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/path.dsv
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.bash
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.sh
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.zsh
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.dsv
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.dsv
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/packages/DiffDr
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/cmake/DiffDrConfig.cmake
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/cmake/DiffDrConfig-version.cmake
+-- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.xml

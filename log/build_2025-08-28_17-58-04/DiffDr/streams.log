@@ -1,0 +1,20 @@
+[0.165s] Invoking command in '/home/tazimo/tazimo_ws/build/DiffDr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/DiffDr -- -j4 -l4
+[3.951s] Invoked command in '/home/tazimo/tazimo_ws/build/DiffDr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/DiffDr -- -j4 -l4
+[3.992s] Invoking command in '/home/tazimo/tazimo_ws/build/DiffDr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/DiffDr
+[4.024s] -- Install configuration: ""
+[4.026s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/package_run_dependencies/DiffDr
+[4.028s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/parent_prefix_path/DiffDr
+[4.029s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/ament_prefix_path.sh
+[4.031s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/ament_prefix_path.dsv
+[4.032s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/path.sh
+[4.033s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/path.dsv
+[4.034s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.bash
+[4.034s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.sh
+[4.035s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.zsh
+[4.037s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.dsv
+[4.043s] -- Installing: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.dsv
+[4.043s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/packages/DiffDr
+[4.044s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/cmake/DiffDrConfig.cmake
+[4.044s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/cmake/DiffDrConfig-version.cmake
+[4.044s] -- Up-to-date: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.xml
+[4.057s] Invoked command in '/home/tazimo/tazimo_ws/build/DiffDr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/DiffDr

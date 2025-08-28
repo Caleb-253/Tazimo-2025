@@ -1,0 +1,4 @@
+source;share/DiffDr/local_setup.bash
+source;share/DiffDr/local_setup.dsv
+source;share/DiffDr/local_setup.sh
+source;share/DiffDr/local_setup.zsh
