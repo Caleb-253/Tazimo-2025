@@ -1,0 +1,22 @@
+[0.055s] Invoking command in '/home/tazimo/tazimo_ws/build/vel-to-ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/vel-to-ser -- -j4 -l4
+[0.269s] Invoked command in '/home/tazimo/tazimo_ws/build/vel-to-ser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/vel-to-ser -- -j4 -l4
+[0.278s] Invoking command in '/home/tazimo/tazimo_ws/build/vel-to-ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/vel-to-ser
+[0.310s] -- Install configuration: ""
+[0.313s] -- Execute custom install script
+[0.317s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/lib/vel-to-ser/cmdvel_to_serial_node.py
+[0.323s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/package_run_dependencies/vel-to-ser
+[0.325s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/parent_prefix_path/vel-to-ser
+[0.329s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/ament_prefix_path.sh
+[0.330s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/ament_prefix_path.dsv
+[0.332s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/path.sh
+[0.334s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/path.dsv
+[0.336s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.bash
+[0.337s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.sh
+[0.339s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.zsh
+[0.341s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.dsv
+[0.342s] -- Symlinking: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.dsv
+[0.379s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/packages/vel-to-ser
+[0.381s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/cmake/vel-to-serConfig.cmake
+[0.382s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/cmake/vel-to-serConfig-version.cmake
+[0.383s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.xml
+[0.392s] Invoked command in '/home/tazimo/tazimo_ws/build/vel-to-ser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/vel-to-ser

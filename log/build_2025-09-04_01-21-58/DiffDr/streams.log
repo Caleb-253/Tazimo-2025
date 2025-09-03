@@ -1,0 +1,21 @@
+[0.165s] Invoking command in '/home/tazimo/tazimo_ws/build/DiffDr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/DiffDr -- -j4 -l4
+[3.868s] Invoked command in '/home/tazimo/tazimo_ws/build/DiffDr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/DiffDr -- -j4 -l4
+[3.910s] Invoking command in '/home/tazimo/tazimo_ws/build/DiffDr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/DiffDr
+[3.944s] -- Install configuration: ""
+[3.949s] -- Execute custom install script
+[3.955s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/package_run_dependencies/DiffDr
+[3.958s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/parent_prefix_path/DiffDr
+[3.961s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/ament_prefix_path.sh
+[3.962s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/ament_prefix_path.dsv
+[3.964s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/path.sh
+[3.966s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/environment/path.dsv
+[3.968s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.bash
+[3.970s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.sh
+[3.972s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.zsh
+[3.974s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/local_setup.dsv
+[3.975s] -- Symlinking: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.dsv
+[4.023s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/ament_index/resource_index/packages/DiffDr
+[4.026s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/cmake/DiffDrConfig.cmake
+[4.027s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/cmake/DiffDrConfig-version.cmake
+[4.028s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.xml
+[4.037s] Invoked command in '/home/tazimo/tazimo_ws/build/DiffDr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/DiffDr

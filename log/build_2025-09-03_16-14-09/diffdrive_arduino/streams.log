@@ -1,0 +1,21 @@
+[7.101s] Invoking command in '/home/tazimo/tazimo_ws/src/diffdrive_arduino': PYTHONPATH=/home/tazimo/tazimo_ws/build/diffdrive_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diffdrive_arduino build --build-base /home/tazimo/tazimo_ws/build/diffdrive_arduino/build install --record /home/tazimo/tazimo_ws/build/diffdrive_arduino/install.log --single-version-externally-managed install_data
+[8.659s] running egg_info
+[8.663s] writing ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/PKG-INFO
+[8.664s] writing dependency_links to ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/dependency_links.txt
+[8.665s] writing entry points to ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/entry_points.txt
+[8.667s] writing requirements to ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/requires.txt
+[8.670s] writing top-level names to ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/top_level.txt
+[8.681s] reading manifest file '../../build/diffdrive_arduino/diffdrive_arduino.egg-info/SOURCES.txt'
+[8.683s] writing manifest file '../../build/diffdrive_arduino/diffdrive_arduino.egg-info/SOURCES.txt'
+[8.684s] running build
+[8.685s] running build_py
+[8.687s] running install
+[8.689s] running install_lib
+[8.695s] running install_data
+[8.696s] running install_egg_info
+[8.707s] removing '/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive_arduino-0.0.0-py3.10.egg-info' (and everything under it)
+[8.710s] Copying ../../build/diffdrive_arduino/diffdrive_arduino.egg-info to /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive_arduino-0.0.0-py3.10.egg-info
+[8.719s] running install_scripts
+[8.850s] Installing diffdrive_node script to /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/diffdrive_arduino
+[8.853s] writing list of installed files to '/home/tazimo/tazimo_ws/build/diffdrive_arduino/install.log'
+[9.061s] Invoked command in '/home/tazimo/tazimo_ws/src/diffdrive_arduino' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/diffdrive_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diffdrive_arduino build --build-base /home/tazimo/tazimo_ws/build/diffdrive_arduino/build install --record /home/tazimo/tazimo_ws/build/diffdrive_arduino/install.log --single-version-externally-managed install_data

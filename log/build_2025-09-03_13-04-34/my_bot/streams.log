@@ -1,0 +1,63 @@
+[0.067s] Invoking command in '/home/tazimo/tazimo_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/my_bot -- -j4 -l4
+[0.206s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.075s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.134s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.651s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.760s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.779s] -- Added test 'lint_cmake' to check CMake code style
+[1.789s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.847s] -- Added test 'xmllint' to check XML markup files
+[1.873s] -- Configuring done
+[1.945s] -- Generating done
+[1.993s] -- Build files have been written to: /home/tazimo/tazimo_ws/build/my_bot
+[2.118s] Invoked command in '/home/tazimo/tazimo_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/my_bot -- -j4 -l4
+[2.126s] Invoking command in '/home/tazimo/tazimo_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/my_bot
+[2.162s] -- Install configuration: ""
+[2.168s] -- Execute custom install script
+[2.177s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/READme.md
+[2.183s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/default_view.rviz
+[2.187s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[2.191s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/empty.yaml
+[2.196s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
+[2.200s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[2.205s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/joystick.yaml
+[2.209s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/main.rviz
+[2.214s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/main_bot.rviz
+[2.221s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[2.227s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[2.234s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[2.242s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/READme.md
+[2.262s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[2.267s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[2.283s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[2.289s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[2.297s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[2.303s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[2.307s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/READme.md
+[2.314s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/bringup.launch.py
+[2.321s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
+[2.328s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[2.334s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[2.340s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/online_async_launch.py
+[2.347s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[2.355s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[2.362s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/worlds/READme.md
+[2.363s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/worlds/custom_world.world
+[2.365s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/worlds/empty.world
+[2.369s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+[2.382s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[2.384s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[2.385s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[2.386s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[2.390s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/environment/path.sh
+[2.393s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/environment/path.dsv
+[2.396s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/local_setup.bash
+[2.399s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/local_setup.sh
+[2.403s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/local_setup.zsh
+[2.408s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/local_setup.dsv
+[2.411s] -- Symlinking: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.dsv
+[2.459s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[2.460s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[2.468s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[2.469s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.xml
+[2.481s] Invoked command in '/home/tazimo/tazimo_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/my_bot

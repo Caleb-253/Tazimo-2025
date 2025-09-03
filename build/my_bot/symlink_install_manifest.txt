@@ -1,3 +1,4 @@
+/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/READme.md
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/default_view.rviz
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/empty.yaml
@@ -8,17 +9,16 @@
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/main_bot.rviz
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/config/view_bot.rviz
-/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/ROS2.xacro
+/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/READme.md
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/lidar.xacro
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/robot_core.xacro
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
-/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/__pycache__/bringup.launch.cpython-310.pyc
-/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/__pycache__/launch_robot.launch.cpython-310.pyc
-/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/__pycache__/rsp.launch.cpython-310.pyc
+/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/READme.md
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/bringup.launch.py
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
@@ -26,6 +26,7 @@
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/online_async_launch.py
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/worlds/READme.md
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/worlds/custom_world.world
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/worlds/empty.world
 /home/tazimo/tazimo_ws/install/my_bot/share/my_bot/worlds/obstacles.world

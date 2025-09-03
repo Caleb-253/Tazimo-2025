@@ -1,0 +1,489 @@
+[0.451s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.451s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8d82e860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8d82e3b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8d82e3b0>>, mixin_verb=('build',))
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.313s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tazimo/tazimo_ws'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extensions ['ignore', 'ignore_ament_install']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extension 'ignore'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extension 'ignore_ament_install'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extensions ['colcon_pkg']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extension 'colcon_pkg'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extensions ['colcon_meta']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extension 'colcon_meta'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extensions ['ros']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DiffDr) by extension 'ros'
+[1.376s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DiffDr' with type 'ros.ament_cmake' and name 'DiffDr'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extensions ['ignore', 'ignore_ament_install']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extension 'ignore'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extension 'ignore_ament_install'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extensions ['colcon_pkg']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extension 'colcon_pkg'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extensions ['colcon_meta']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extension 'colcon_meta'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extensions ['ros']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmdvel_to_serial) by extension 'ros'
+[1.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmdvel_to_serial' with type 'ros.ament_python' and name 'cmdvel_to_serial'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[1.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_python' and name 'diffdrive_arduino'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extensions ['ignore', 'ignore_ament_install']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extension 'ignore'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extension 'ignore_ament_install'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extensions ['colcon_pkg']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extension 'colcon_pkg'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extensions ['colcon_meta']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extension 'colcon_meta'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extensions ['ros']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_to_odom) by extension 'ros'
+[1.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/encoder_to_odom' with type 'ros.ament_python' and name 'encoder_to_odom'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[1.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[1.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extensions ['ignore', 'ignore_ament_install']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extension 'ignore'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extension 'ignore_ament_install'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extensions ['colcon_pkg']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extension 'colcon_pkg'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extensions ['colcon_meta']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extension 'colcon_meta'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extensions ['ros']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel-to-ser) by extension 'ros'
+[1.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vel-to-ser' with type 'ros.ament_cmake' and name 'vel-to-ser'
+[1.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.546s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 382 installed packages in /opt/ros/humble
+[1.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.775s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'cmake_args' from command line to 'None'
+[1.775s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'cmake_target' from command line to 'None'
+[1.775s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.775s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'cmake_clean_cache' from command line to 'False'
+[1.775s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'cmake_clean_first' from command line to 'False'
+[1.775s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'cmake_force_configure' from command line to 'False'
+[1.776s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'ament_cmake_args' from command line to 'None'
+[1.776s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'catkin_cmake_args' from command line to 'None'
+[1.776s] Level 5:colcon.colcon_core.verb:set package 'DiffDr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.776s] DEBUG:colcon.colcon_core.verb:Building package 'DiffDr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tazimo/tazimo_ws/build/DiffDr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tazimo/tazimo_ws/install/DiffDr', 'merge_install': False, 'path': '/home/tazimo/tazimo_ws/src/DiffDr', 'symlink_install': False, 'test_result_base': None}
+[1.777s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'cmake_args' from command line to 'None'
+[1.778s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'cmake_target' from command line to 'None'
+[1.778s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.778s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.778s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.778s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.778s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.778s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.778s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.779s] DEBUG:colcon.colcon_core.verb:Building package 'cmdvel_to_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tazimo/tazimo_ws/build/cmdvel_to_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tazimo/tazimo_ws/install/cmdvel_to_serial', 'merge_install': False, 'path': '/home/tazimo/tazimo_ws/src/cmdvel_to_serial', 'symlink_install': False, 'test_result_base': None}
+[1.780s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[1.780s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[1.780s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.780s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[1.780s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[1.781s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.781s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tazimo/tazimo_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tazimo/tazimo_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/tazimo/tazimo_ws/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'cmake_args' from command line to 'None'
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'cmake_target' from command line to 'None'
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'cmake_clean_first' from command line to 'False'
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'cmake_force_configure' from command line to 'False'
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'ament_cmake_args' from command line to 'None'
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.783s] Level 5:colcon.colcon_core.verb:set package 'encoder_to_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.784s] DEBUG:colcon.colcon_core.verb:Building package 'encoder_to_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tazimo/tazimo_ws/build/encoder_to_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tazimo/tazimo_ws/install/encoder_to_odom', 'merge_install': False, 'path': '/home/tazimo/tazimo_ws/src/encoder_to_odom', 'symlink_install': False, 'test_result_base': None}
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.785s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.786s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.786s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tazimo/tazimo_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tazimo/tazimo_ws/install/my_bot', 'merge_install': False, 'path': '/home/tazimo/tazimo_ws/src/my_bot', 'symlink_install': False, 'test_result_base': None}
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.788s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.789s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tazimo/tazimo_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tazimo/tazimo_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/tazimo/tazimo_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'cmake_target' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'cmake_clean_cache' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'cmake_clean_first' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'cmake_force_configure' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'ament_cmake_args' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'catkin_cmake_args' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'vel-to-ser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.791s] DEBUG:colcon.colcon_core.verb:Building package 'vel-to-ser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tazimo/tazimo_ws/build/vel-to-ser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tazimo/tazimo_ws/install/vel-to-ser', 'merge_install': False, 'path': '/home/tazimo/tazimo_ws/src/vel-to-ser', 'symlink_install': False, 'test_result_base': None}
+[1.792s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.796s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tazimo/tazimo_ws/src/DiffDr' with build type 'ament_cmake'
+[1.797s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tazimo/tazimo_ws/src/DiffDr'
+[1.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.807s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.825s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tazimo/tazimo_ws/src/cmdvel_to_serial' with build type 'ament_python'
+[1.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmdvel_to_serial', 'ament_prefix_path')
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/hook/ament_prefix_path.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/hook/ament_prefix_path.dsv'
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/hook/ament_prefix_path.sh'
+[1.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.854s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tazimo/tazimo_ws/src/diffdrive_arduino' with build type 'ament_python'
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ament_prefix_path')
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ament_prefix_path.ps1'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ament_prefix_path.dsv'
+[1.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ament_prefix_path.sh'
+[1.864s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.881s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tazimo/tazimo_ws/src/encoder_to_odom' with build type 'ament_python'
+[1.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_to_odom', 'ament_prefix_path')
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/hook/ament_prefix_path.ps1'
+[1.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/hook/ament_prefix_path.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/hook/ament_prefix_path.sh'
+[1.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/build/DiffDr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/DiffDr -- -j4 -l4
+[3.187s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tazimo/tazimo_ws/src/cmdvel_to_serial'
+[3.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.420s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tazimo/tazimo_ws/src/diffdrive_arduino'
+[4.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.681s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tazimo/tazimo_ws/src/encoder_to_odom'
+[5.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/build/DiffDr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/DiffDr -- -j4 -l4
+[5.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/build/DiffDr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/DiffDr
+[5.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(DiffDr)
+[5.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/build/DiffDr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/DiffDr
+[5.859s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr' for CMake module files
+[5.862s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr' for CMake config files
+[5.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('DiffDr', 'cmake_prefix_path')
+[5.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/hook/cmake_prefix_path.ps1'
+[5.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/hook/cmake_prefix_path.dsv'
+[5.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/hook/cmake_prefix_path.sh'
+[5.874s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr/bin'
+[5.875s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr/lib/pkgconfig/DiffDr.pc'
+[5.876s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr/lib/python3.10/site-packages'
+[5.878s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr/bin'
+[5.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.ps1'
+[5.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.dsv'
+[5.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.sh'
+[5.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.bash'
+[5.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.zsh'
+[5.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/DiffDr/share/colcon-core/packages/DiffDr)
+[5.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(DiffDr)
+[5.907s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr' for CMake module files
+[5.910s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr' for CMake config files
+[5.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('DiffDr', 'cmake_prefix_path')
+[5.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/hook/cmake_prefix_path.ps1'
+[5.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/hook/cmake_prefix_path.dsv'
+[5.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/hook/cmake_prefix_path.sh'
+[5.922s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr/bin'
+[5.922s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr/lib/pkgconfig/DiffDr.pc'
+[5.923s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr/lib/python3.10/site-packages'
+[5.926s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/DiffDr/bin'
+[5.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.ps1'
+[5.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.dsv'
+[5.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.sh'
+[5.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.bash'
+[5.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/DiffDr/share/DiffDr/package.zsh'
+[5.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/DiffDr/share/colcon-core/packages/DiffDr)
+[5.949s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tazimo/tazimo_ws/src/my_bot' with build type 'ament_cmake'
+[5.950s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tazimo/tazimo_ws/src/my_bot'
+[5.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/my_bot -- -j4 -l4
+[6.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/my_bot -- -j4 -l4
+[6.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/my_bot
+[6.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[6.512s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot' for CMake module files
+[6.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/my_bot
+[6.517s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot' for CMake config files
+[6.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[6.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[6.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[6.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[6.541s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot/bin'
+[6.542s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[6.544s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot/lib/python3.10/site-packages'
+[6.545s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot/bin'
+[6.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.ps1'
+[6.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.dsv'
+[6.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.sh'
+[6.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.bash'
+[6.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.zsh'
+[6.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[6.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[6.575s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot' for CMake module files
+[6.579s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot' for CMake config files
+[6.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[6.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[6.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[6.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[6.596s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot/bin'
+[6.597s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[6.599s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot/lib/python3.10/site-packages'
+[6.601s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/my_bot/bin'
+[6.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.ps1'
+[6.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.dsv'
+[6.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.sh'
+[6.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.bash'
+[6.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/my_bot/share/my_bot/package.zsh'
+[6.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[6.634s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tazimo/tazimo_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[6.637s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tazimo/tazimo_ws/src/sllidar_ros2'
+[6.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/sllidar_ros2 -- -j4 -l4
+[7.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/sllidar_ros2 -- -j4 -l4
+[7.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/sllidar_ros2
+[7.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[7.447s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2' for CMake module files
+[7.451s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2' for CMake config files
+[7.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[7.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/sllidar_ros2
+[7.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[7.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[7.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[7.467s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/lib'
+[7.468s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/bin'
+[7.469s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[7.470s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[7.471s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/bin'
+[7.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[7.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[7.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[7.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[7.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[7.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[7.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[7.492s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2' for CMake module files
+[7.495s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2' for CMake config files
+[7.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[7.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[7.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[7.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[7.508s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/lib'
+[7.508s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/bin'
+[7.509s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[7.511s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/sllidar_ros2/bin'
+[7.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[7.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[7.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[7.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[7.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[7.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[7.540s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tazimo/tazimo_ws/src/vel-to-ser' with build type 'ament_cmake'
+[7.542s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tazimo/tazimo_ws/src/vel-to-ser'
+[7.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/build/vel-to-ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/vel-to-ser -- -j4 -l4
+[7.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/build/vel-to-ser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/vel-to-ser -- -j4 -l4
+[7.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/build/vel-to-ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/vel-to-ser
+[7.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel-to-ser)
+[7.933s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser' for CMake module files
+[7.936s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser' for CMake config files
+[7.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/build/vel-to-ser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/vel-to-ser
+[7.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel-to-ser', 'cmake_prefix_path')
+[7.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/hook/cmake_prefix_path.ps1'
+[7.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/hook/cmake_prefix_path.dsv'
+[7.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/hook/cmake_prefix_path.sh'
+[7.951s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/lib'
+[7.952s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/bin'
+[7.953s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/lib/pkgconfig/vel-to-ser.pc'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/lib/python3.10/site-packages'
+[7.955s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/bin'
+[7.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.ps1'
+[7.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.dsv'
+[7.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.sh'
+[7.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.bash'
+[7.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.zsh'
+[7.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/vel-to-ser/share/colcon-core/packages/vel-to-ser)
+[7.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel-to-ser)
+[7.978s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser' for CMake module files
+[7.982s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser' for CMake config files
+[7.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel-to-ser', 'cmake_prefix_path')
+[7.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/hook/cmake_prefix_path.ps1'
+[7.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/hook/cmake_prefix_path.dsv'
+[7.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/hook/cmake_prefix_path.sh'
+[7.997s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/lib'
+[7.998s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/bin'
+[7.999s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/lib/pkgconfig/vel-to-ser.pc'
+[8.000s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/lib/python3.10/site-packages'
+[8.001s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/vel-to-ser/bin'
+[8.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.ps1'
+[8.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.dsv'
+[8.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.sh'
+[8.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.bash'
+[8.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.zsh'
+[8.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/vel-to-ser/share/colcon-core/packages/vel-to-ser)
+[8.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/src/encoder_to_odom': PYTHONPATH=/home/tazimo/tazimo_ws/build/encoder_to_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_to_odom build --build-base /home/tazimo/tazimo_ws/build/encoder_to_odom/build install --record /home/tazimo/tazimo_ws/build/encoder_to_odom/install.log --single-version-externally-managed install_data
+[8.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/src/cmdvel_to_serial': PYTHONPATH=/home/tazimo/tazimo_ws/build/cmdvel_to_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmdvel_to_serial build --build-base /home/tazimo/tazimo_ws/build/cmdvel_to_serial/build install --record /home/tazimo/tazimo_ws/build/cmdvel_to_serial/install.log --single-version-externally-managed install_data
+[8.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tazimo/tazimo_ws/src/diffdrive_arduino': PYTHONPATH=/home/tazimo/tazimo_ws/build/diffdrive_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diffdrive_arduino build --build-base /home/tazimo/tazimo_ws/build/diffdrive_arduino/build install --record /home/tazimo/tazimo_ws/build/diffdrive_arduino/install.log --single-version-externally-managed install_data
+[10.327s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/encoder_to_odom' for CMake module files
+[10.332s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/encoder_to_odom' for CMake config files
+[10.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/src/encoder_to_odom' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/encoder_to_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_to_odom build --build-base /home/tazimo/tazimo_ws/build/encoder_to_odom/build install --record /home/tazimo/tazimo_ws/build/encoder_to_odom/install.log --single-version-externally-managed install_data
+[10.348s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/encoder_to_odom/lib'
+[10.349s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/encoder_to_odom/bin'
+[10.349s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/encoder_to_odom/lib/pkgconfig/encoder_to_odom.pc'
+[10.351s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages'
+[10.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_to_odom', 'pythonpath')
+[10.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/hook/pythonpath.ps1'
+[10.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/hook/pythonpath.dsv'
+[10.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/hook/pythonpath.sh'
+[10.363s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/encoder_to_odom/bin'
+[10.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(encoder_to_odom)
+[10.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/package.ps1'
+[10.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/package.dsv'
+[10.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/package.sh'
+[10.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/package.bash'
+[10.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/package.zsh'
+[10.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/encoder_to_odom/share/colcon-core/packages/encoder_to_odom)
+[10.394s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/cmdvel_to_serial' for CMake module files
+[10.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/src/cmdvel_to_serial' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/cmdvel_to_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmdvel_to_serial build --build-base /home/tazimo/tazimo_ws/build/cmdvel_to_serial/build install --record /home/tazimo/tazimo_ws/build/cmdvel_to_serial/install.log --single-version-externally-managed install_data
+[10.401s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/cmdvel_to_serial' for CMake config files
+[10.406s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib'
+[10.407s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/bin'
+[10.408s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/pkgconfig/cmdvel_to_serial.pc'
+[10.410s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages'
+[10.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmdvel_to_serial', 'pythonpath')
+[10.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/hook/pythonpath.ps1'
+[10.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/hook/pythonpath.dsv'
+[10.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/hook/pythonpath.sh'
+[10.425s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/bin'
+[10.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmdvel_to_serial)
+[10.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/package.ps1'
+[10.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/package.dsv'
+[10.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/package.sh'
+[10.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/package.bash'
+[10.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial/package.zsh'
+[10.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/colcon-core/packages/cmdvel_to_serial)
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/diffdrive_arduino' for CMake module files
+[10.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tazimo/tazimo_ws/src/diffdrive_arduino' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/diffdrive_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diffdrive_arduino build --build-base /home/tazimo/tazimo_ws/build/diffdrive_arduino/build install --record /home/tazimo/tazimo_ws/build/diffdrive_arduino/install.log --single-version-externally-managed install_data
+[10.567s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/diffdrive_arduino' for CMake config files
+[10.571s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib'
+[10.571s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/diffdrive_arduino/bin'
+[10.571s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[10.572s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[10.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'pythonpath')
+[10.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/pythonpath.ps1'
+[10.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/pythonpath.dsv'
+[10.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/pythonpath.sh'
+[10.582s] Level 1:colcon.colcon_core.environment:checking '/home/tazimo/tazimo_ws/install/diffdrive_arduino/bin'
+[10.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[10.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[10.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[10.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[10.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[10.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[10.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tazimo/tazimo_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[10.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.599s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.621s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.621s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.621s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.624s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[10.624s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tazimo/tazimo_ws/install/local_setup.ps1'
+[10.629s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tazimo/tazimo_ws/install/_local_setup_util_ps1.py'
+[10.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tazimo/tazimo_ws/install/setup.ps1'
+[10.640s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tazimo/tazimo_ws/install/local_setup.sh'
+[10.643s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tazimo/tazimo_ws/install/_local_setup_util_sh.py'
+[10.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tazimo/tazimo_ws/install/setup.sh'
+[10.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tazimo/tazimo_ws/install/local_setup.bash'
+[10.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tazimo/tazimo_ws/install/setup.bash'
+[10.656s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tazimo/tazimo_ws/install/local_setup.zsh'
+[10.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tazimo/tazimo_ws/install/setup.zsh'

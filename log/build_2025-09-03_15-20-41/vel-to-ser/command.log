@@ -1,0 +1,4 @@
+Invoking command in '/home/tazimo/tazimo_ws/build/vel-to-ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/vel-to-ser -- -j4 -l4
+Invoked command in '/home/tazimo/tazimo_ws/build/vel-to-ser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/vel-to-ser -- -j4 -l4
+Invoking command in '/home/tazimo/tazimo_ws/build/vel-to-ser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/vel-to-ser
+Invoked command in '/home/tazimo/tazimo_ws/build/vel-to-ser' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/vel-to-ser

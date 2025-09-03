@@ -1,0 +1,21 @@
+[7.420s] Invoking command in '/home/tazimo/tazimo_ws/src/encoder_to_odom': PYTHONPATH=/home/tazimo/tazimo_ws/build/encoder_to_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_to_odom build --build-base /home/tazimo/tazimo_ws/build/encoder_to_odom/build install --record /home/tazimo/tazimo_ws/build/encoder_to_odom/install.log --single-version-externally-managed install_data
+[9.179s] running egg_info
+[9.183s] writing ../../build/encoder_to_odom/encoder_to_odom.egg-info/PKG-INFO
+[9.185s] writing dependency_links to ../../build/encoder_to_odom/encoder_to_odom.egg-info/dependency_links.txt
+[9.187s] writing entry points to ../../build/encoder_to_odom/encoder_to_odom.egg-info/entry_points.txt
+[9.188s] writing requirements to ../../build/encoder_to_odom/encoder_to_odom.egg-info/requires.txt
+[9.189s] writing top-level names to ../../build/encoder_to_odom/encoder_to_odom.egg-info/top_level.txt
+[9.197s] reading manifest file '../../build/encoder_to_odom/encoder_to_odom.egg-info/SOURCES.txt'
+[9.204s] writing manifest file '../../build/encoder_to_odom/encoder_to_odom.egg-info/SOURCES.txt'
+[9.205s] running build
+[9.207s] running build_py
+[9.209s] running install
+[9.215s] running install_lib
+[9.221s] running install_data
+[9.223s] running install_egg_info
+[9.236s] removing '/home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages/encoder_to_odom-0.0.1-py3.10.egg-info' (and everything under it)
+[9.243s] Copying ../../build/encoder_to_odom/encoder_to_odom.egg-info to /home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages/encoder_to_odom-0.0.1-py3.10.egg-info
+[9.258s] running install_scripts
+[9.392s] Installing encoder_to_odom script to /home/tazimo/tazimo_ws/install/encoder_to_odom/lib/encoder_to_odom
+[9.395s] writing list of installed files to '/home/tazimo/tazimo_ws/build/encoder_to_odom/install.log'
+[9.527s] Invoked command in '/home/tazimo/tazimo_ws/src/encoder_to_odom' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/encoder_to_odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_to_odom build --build-base /home/tazimo/tazimo_ws/build/encoder_to_odom/build install --record /home/tazimo/tazimo_ws/build/encoder_to_odom/install.log --single-version-externally-managed install_data
