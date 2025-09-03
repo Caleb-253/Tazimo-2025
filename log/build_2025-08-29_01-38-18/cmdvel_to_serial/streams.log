@@ -1,0 +1,31 @@
+[7.014s] Invoking command in '/home/tazimo/tazimo_ws/build/cmdvel_to_serial': PYTHONPATH=/home/tazimo/tazimo_ws/build/cmdvel_to_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/tazimo/tazimo_ws/build/cmdvel_to_serial/build
+[9.244s] running develop
+[10.591s] Removing /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages/cmdvel-to-serial.egg-link (link to .)
+[10.800s] Invoked command in '/home/tazimo/tazimo_ws/build/cmdvel_to_serial' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/cmdvel_to_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/tazimo/tazimo_ws/build/cmdvel_to_serial/build
+[10.802s] Invoking command in '/home/tazimo/tazimo_ws/src/cmdvel_to_serial': PYTHONPATH=/home/tazimo/tazimo_ws/build/cmdvel_to_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmdvel_to_serial build --build-base /home/tazimo/tazimo_ws/build/cmdvel_to_serial/build install --record /home/tazimo/tazimo_ws/build/cmdvel_to_serial/install.log --single-version-externally-managed install_data --force
+[13.105s] running egg_info
+[13.108s] writing ../../build/cmdvel_to_serial/cmdvel_to_serial.egg-info/PKG-INFO
+[13.110s] writing dependency_links to ../../build/cmdvel_to_serial/cmdvel_to_serial.egg-info/dependency_links.txt
+[13.111s] writing entry points to ../../build/cmdvel_to_serial/cmdvel_to_serial.egg-info/entry_points.txt
+[13.112s] writing requirements to ../../build/cmdvel_to_serial/cmdvel_to_serial.egg-info/requires.txt
+[13.113s] writing top-level names to ../../build/cmdvel_to_serial/cmdvel_to_serial.egg-info/top_level.txt
+[13.124s] reading manifest file '../../build/cmdvel_to_serial/cmdvel_to_serial.egg-info/SOURCES.txt'
+[13.129s] writing manifest file '../../build/cmdvel_to_serial/cmdvel_to_serial.egg-info/SOURCES.txt'
+[13.130s] running build
+[13.130s] running build_py
+[13.133s] running install
+[13.135s] running install_lib
+[13.139s] creating /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages/cmdvel_to_serial
+[13.140s] copying /home/tazimo/tazimo_ws/build/cmdvel_to_serial/build/lib/cmdvel_to_serial/__init__.py -> /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages/cmdvel_to_serial
+[13.141s] copying /home/tazimo/tazimo_ws/build/cmdvel_to_serial/build/lib/cmdvel_to_serial/cmdvel_to_serial_node.py -> /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages/cmdvel_to_serial
+[13.145s] byte-compiling /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages/cmdvel_to_serial/__init__.py to __init__.cpython-310.pyc
+[13.147s] byte-compiling /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages/cmdvel_to_serial/cmdvel_to_serial_node.py to cmdvel_to_serial_node.cpython-310.pyc
+[13.153s] running install_data
+[13.154s] copying resource/cmdvel_to_serial -> /home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/ament_index/resource_index/packages
+[13.155s] copying package.xml -> /home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial
+[13.156s] running install_egg_info
+[13.168s] Copying ../../build/cmdvel_to_serial/cmdvel_to_serial.egg-info to /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages/cmdvel_to_serial-0.0.0-py3.10.egg-info
+[13.177s] running install_scripts
+[13.282s] Installing cmdvel_to_serial script to /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/cmdvel_to_serial
+[13.286s] writing list of installed files to '/home/tazimo/tazimo_ws/build/cmdvel_to_serial/install.log'
+[13.480s] Invoked command in '/home/tazimo/tazimo_ws/src/cmdvel_to_serial' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/cmdvel_to_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmdvel_to_serial build --build-base /home/tazimo/tazimo_ws/build/cmdvel_to_serial/build install --record /home/tazimo/tazimo_ws/build/cmdvel_to_serial/install.log --single-version-externally-managed install_data --force

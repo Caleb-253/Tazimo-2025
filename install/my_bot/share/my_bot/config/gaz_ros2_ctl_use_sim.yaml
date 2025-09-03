@@ -1,3 +1,1 @@
-controller_manager:
-  ros__parameters:
-    use_sim_time: true
+/home/tazimo/tazimo_ws/src/my_bot/config/gaz_ros2_ctl_use_sim.yaml

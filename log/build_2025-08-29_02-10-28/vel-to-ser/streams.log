@@ -1,0 +1,22 @@
+[0.051s] Invoking command in '/home/tazimo/tazimo_ws/build/vel-to-ser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/vel-to-ser -- -j4 -l4
+[0.286s] Invoked command in '/home/tazimo/tazimo_ws/build/vel-to-ser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/vel-to-ser -- -j4 -l4
+[0.289s] Invoking command in '/home/tazimo/tazimo_ws/build/vel-to-ser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/vel-to-ser
+[0.325s] -- Install configuration: ""
+[0.328s] -- Execute custom install script
+[0.331s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/lib/vel-to-ser/cmdvel_to_serial_node.py
+[0.334s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/package_run_dependencies/vel-to-ser
+[0.337s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/parent_prefix_path/vel-to-ser
+[0.341s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/ament_prefix_path.sh
+[0.345s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/ament_prefix_path.dsv
+[0.351s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/path.sh
+[0.354s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/environment/path.dsv
+[0.356s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.bash
+[0.360s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.sh
+[0.363s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.zsh
+[0.366s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/local_setup.dsv
+[0.368s] -- Symlinking: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.dsv
+[0.416s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/ament_index/resource_index/packages/vel-to-ser
+[0.417s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/cmake/vel-to-serConfig.cmake
+[0.418s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/cmake/vel-to-serConfig-version.cmake
+[0.418s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/vel-to-ser/share/vel-to-ser/package.xml
+[0.432s] Invoked command in '/home/tazimo/tazimo_ws/build/vel-to-ser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/vel-to-ser

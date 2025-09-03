@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating encoder_to_odom.egg-info
+writing encoder_to_odom.egg-info/PKG-INFO
+writing dependency_links to encoder_to_odom.egg-info/dependency_links.txt
+writing entry points to encoder_to_odom.egg-info/entry_points.txt
+writing requirements to encoder_to_odom.egg-info/requires.txt
+writing top-level names to encoder_to_odom.egg-info/top_level.txt
+writing manifest file 'encoder_to_odom.egg-info/SOURCES.txt'
+reading manifest file 'encoder_to_odom.egg-info/SOURCES.txt'
+writing manifest file 'encoder_to_odom.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages/encoder-to-odom.egg-link (link to .)
+Installing encoder_to_odom script to /home/tazimo/tazimo_ws/install/encoder_to_odom/lib/encoder_to_odom
+
+Installed /home/tazimo/tazimo_ws/build/encoder_to_odom
+running symlink_data
+creating /home/tazimo/tazimo_ws/install/encoder_to_odom/share/ament_index
+creating /home/tazimo/tazimo_ws/install/encoder_to_odom/share/ament_index/resource_index
+creating /home/tazimo/tazimo_ws/install/encoder_to_odom/share/ament_index/resource_index/packages
+symbolically linking /home/tazimo/tazimo_ws/build/encoder_to_odom/resource/encoder_to_odom -> /home/tazimo/tazimo_ws/install/encoder_to_odom/share/ament_index/resource_index/packages
+symbolically linking /home/tazimo/tazimo_ws/build/encoder_to_odom/package.xml -> /home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom
+creating /home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/launch
+symbolically linking /home/tazimo/tazimo_ws/build/encoder_to_odom/launch/encoder_to_odom.launch.py -> /home/tazimo/tazimo_ws/install/encoder_to_odom/share/encoder_to_odom/launch

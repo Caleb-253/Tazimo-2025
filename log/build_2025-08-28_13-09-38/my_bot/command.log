@@ -1,6 +1,0 @@
-Invoking command in '/home/tazimo/tazimo_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/tazimo/tazimo_ws/install/diffdrive_arduino:/opt/ros/humble /usr/bin/cmake /home/tazimo/tazimo_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/tazimo/tazimo_ws/install/my_bot
-Invoked command in '/home/tazimo/tazimo_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/tazimo/tazimo_ws/install/diffdrive_arduino:/opt/ros/humble /usr/bin/cmake /home/tazimo/tazimo_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/tazimo/tazimo_ws/install/my_bot
-Invoking command in '/home/tazimo/tazimo_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/tazimo/tazimo_ws/install/diffdrive_arduino:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/my_bot -- -j4 -l4
-Invoked command in '/home/tazimo/tazimo_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/tazimo/tazimo_ws/install/diffdrive_arduino:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/my_bot -- -j4 -l4
-Invoking command in '/home/tazimo/tazimo_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/tazimo/tazimo_ws/install/diffdrive_arduino:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/my_bot
-Invoked command in '/home/tazimo/tazimo_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/tazimo/tazimo_ws/install/diffdrive_arduino:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/my_bot

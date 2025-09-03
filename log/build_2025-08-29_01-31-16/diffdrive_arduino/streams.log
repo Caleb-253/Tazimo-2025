@@ -1,0 +1,19 @@
+[6.993s] Invoking command in '/home/tazimo/tazimo_ws/build/diffdrive_arduino': PYTHONPATH=/home/tazimo/tazimo_ws/build/diffdrive_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tazimo/tazimo_ws/build/diffdrive_arduino/build --no-deps symlink_data --force
+[9.051s] running develop
+[10.384s] running egg_info
+[10.387s] writing diffdrive_arduino.egg-info/PKG-INFO
+[10.389s] writing dependency_links to diffdrive_arduino.egg-info/dependency_links.txt
+[10.393s] writing entry points to diffdrive_arduino.egg-info/entry_points.txt
+[10.395s] writing requirements to diffdrive_arduino.egg-info/requires.txt
+[10.397s] writing top-level names to diffdrive_arduino.egg-info/top_level.txt
+[10.407s] reading manifest file 'diffdrive_arduino.egg-info/SOURCES.txt'
+[10.411s] writing manifest file 'diffdrive_arduino.egg-info/SOURCES.txt'
+[10.419s] running build_ext
+[10.421s] Creating /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive-arduino.egg-link (link to .)
+[10.424s] Installing diffdrive_node script to /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/diffdrive_arduino
+[10.426s] 
+[10.426s] Installed /home/tazimo/tazimo_ws/build/diffdrive_arduino
+[10.427s] running symlink_data
+[10.428s] symbolically linking /home/tazimo/tazimo_ws/build/diffdrive_arduino/resource/diffdrive_arduino -> /home/tazimo/tazimo_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages
+[10.429s] symbolically linking /home/tazimo/tazimo_ws/build/diffdrive_arduino/package.xml -> /home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino
+[10.675s] Invoked command in '/home/tazimo/tazimo_ws/build/diffdrive_arduino' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/diffdrive_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tazimo/tazimo_ws/build/diffdrive_arduino/build --no-deps symlink_data --force

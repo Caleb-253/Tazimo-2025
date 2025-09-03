@@ -1,0 +1,17 @@
+[10.701s] Invoking command in '/home/tazimo/tazimo_ws/build/diffdrive_arduino': PYTHONPATH=/home/tazimo/tazimo_ws/build/diffdrive_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tazimo/tazimo_ws/build/diffdrive_arduino/build --no-deps symlink_data
+[12.395s] running develop
+[13.704s] running egg_info
+[13.704s] writing diffdrive_arduino.egg-info/PKG-INFO
+[13.705s] writing dependency_links to diffdrive_arduino.egg-info/dependency_links.txt
+[13.707s] writing entry points to diffdrive_arduino.egg-info/entry_points.txt
+[13.707s] writing requirements to diffdrive_arduino.egg-info/requires.txt
+[13.708s] writing top-level names to diffdrive_arduino.egg-info/top_level.txt
+[13.716s] reading manifest file 'diffdrive_arduino.egg-info/SOURCES.txt'
+[13.719s] writing manifest file 'diffdrive_arduino.egg-info/SOURCES.txt'
+[13.725s] running build_ext
+[13.726s] Creating /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive-arduino.egg-link (link to .)
+[13.730s] Installing diffdrive_node script to /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/diffdrive_arduino
+[13.731s] 
+[13.732s] Installed /home/tazimo/tazimo_ws/build/diffdrive_arduino
+[13.732s] running symlink_data
+[13.865s] Invoked command in '/home/tazimo/tazimo_ws/build/diffdrive_arduino' returned '0': PYTHONPATH=/home/tazimo/tazimo_ws/build/diffdrive_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tazimo/tazimo_ws/build/diffdrive_arduino/build --no-deps symlink_data

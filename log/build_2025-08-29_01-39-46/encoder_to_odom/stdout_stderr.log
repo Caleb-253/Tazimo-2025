@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing encoder_to_odom.egg-info/PKG-INFO
+writing dependency_links to encoder_to_odom.egg-info/dependency_links.txt
+writing entry points to encoder_to_odom.egg-info/entry_points.txt
+writing requirements to encoder_to_odom.egg-info/requires.txt
+writing top-level names to encoder_to_odom.egg-info/top_level.txt
+reading manifest file 'encoder_to_odom.egg-info/SOURCES.txt'
+writing manifest file 'encoder_to_odom.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tazimo/tazimo_ws/install/encoder_to_odom/lib/python3.10/site-packages/encoder-to-odom.egg-link (link to .)
+Installing encoder_to_odom script to /home/tazimo/tazimo_ws/install/encoder_to_odom/lib/encoder_to_odom
+
+Installed /home/tazimo/tazimo_ws/build/encoder_to_odom
+running symlink_data

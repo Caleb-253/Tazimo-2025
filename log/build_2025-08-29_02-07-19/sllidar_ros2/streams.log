@@ -1,0 +1,72 @@
+[0.112s] Invoking command in '/home/tazimo/tazimo_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake /home/tazimo/tazimo_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/tazimo/tazimo_ws/install/sllidar_ros2
+[0.224s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.033s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.082s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.289s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.304s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.339s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.636s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.644s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.609s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.876s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.035s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[3.597s] -- Configuring done
+[3.742s] -- Generating done
+[3.783s] -- Build files have been written to: /home/tazimo/tazimo_ws/build/sllidar_ros2
+[3.824s] Invoked command in '/home/tazimo/tazimo_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake /home/tazimo/tazimo_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/tazimo/tazimo_ws/install/sllidar_ros2
+[3.835s] Invoking command in '/home/tazimo/tazimo_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/sllidar_ros2 -- -j4 -l4
+[4.095s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[4.108s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[4.362s] [ 10%] Built target sllidar_client
+[4.467s] [100%] Built target sllidar_node
+[4.582s] Invoked command in '/home/tazimo/tazimo_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --build /home/tazimo/tazimo_ws/build/sllidar_ros2 -- -j4 -l4
+[4.584s] Invoking command in '/home/tazimo/tazimo_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/sllidar_ros2
+[4.612s] -- Install configuration: ""
+[4.614s] -- Execute custom install script
+[4.617s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[4.618s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[4.619s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[4.620s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[4.621s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[4.621s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[4.622s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[4.623s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[4.624s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[4.625s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[4.626s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[4.627s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[4.628s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[4.629s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[4.630s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[4.630s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[4.632s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[4.634s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[4.636s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[4.638s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[4.638s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[4.641s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[4.642s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[4.643s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[4.645s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[4.645s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[4.647s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[4.650s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[4.650s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[4.653s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[4.656s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[4.656s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[4.657s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[4.657s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[4.658s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[4.658s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[4.659s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[4.660s] -- Symlinking: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[4.693s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[4.694s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.696s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.697s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[4.698s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[4.700s] -- Up-to-date symlink: /home/tazimo/tazimo_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[4.708s] Invoked command in '/home/tazimo/tazimo_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tazimo/tazimo_ws/install/encoder_to_odom:/home/tazimo/tazimo_ws/install/diffdrive_arduino:/home/tazimo/tazimo_ws/install/cmdvel_to_serial:/opt/ros/humble /usr/bin/cmake --install /home/tazimo/tazimo_ws/build/sllidar_ros2

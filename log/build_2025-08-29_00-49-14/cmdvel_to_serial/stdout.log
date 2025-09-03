@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating cmdvel_to_serial.egg-info
+writing cmdvel_to_serial.egg-info/PKG-INFO
+writing dependency_links to cmdvel_to_serial.egg-info/dependency_links.txt
+writing entry points to cmdvel_to_serial.egg-info/entry_points.txt
+writing requirements to cmdvel_to_serial.egg-info/requires.txt
+writing top-level names to cmdvel_to_serial.egg-info/top_level.txt
+writing manifest file 'cmdvel_to_serial.egg-info/SOURCES.txt'
+reading manifest file 'cmdvel_to_serial.egg-info/SOURCES.txt'
+writing manifest file 'cmdvel_to_serial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/python3.10/site-packages/cmdvel-to-serial.egg-link (link to .)
+Installing cmdvel_to_serial script to /home/tazimo/tazimo_ws/install/cmdvel_to_serial/lib/cmdvel_to_serial
+
+Installed /home/tazimo/tazimo_ws/build/cmdvel_to_serial
+running symlink_data
+creating /home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/ament_index
+creating /home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/ament_index/resource_index
+creating /home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/ament_index/resource_index/packages
+symbolically linking /home/tazimo/tazimo_ws/build/cmdvel_to_serial/resource/cmdvel_to_serial -> /home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/ament_index/resource_index/packages
+symbolically linking /home/tazimo/tazimo_ws/build/cmdvel_to_serial/package.xml -> /home/tazimo/tazimo_ws/install/cmdvel_to_serial/share/cmdvel_to_serial

@@ -1,2 +1,1 @@
-source;share/vel-to-ser/environment/ament_prefix_path.sh
-source;share/vel-to-ser/environment/path.sh
+/home/tazimo/tazimo_ws/build/vel-to-ser/ament_cmake_environment_hooks/local_setup.dsv

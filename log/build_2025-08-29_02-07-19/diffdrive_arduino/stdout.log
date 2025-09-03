@@ -1,0 +1,27 @@
+running develop
+Removing /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive-arduino.egg-link (link to .)
+running egg_info
+writing ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/PKG-INFO
+writing dependency_links to ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/dependency_links.txt
+writing entry points to ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/entry_points.txt
+writing requirements to ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/requires.txt
+writing top-level names to ../../build/diffdrive_arduino/diffdrive_arduino.egg-info/top_level.txt
+reading manifest file '../../build/diffdrive_arduino/diffdrive_arduino.egg-info/SOURCES.txt'
+writing manifest file '../../build/diffdrive_arduino/diffdrive_arduino.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive_arduino
+copying /home/tazimo/tazimo_ws/build/diffdrive_arduino/build/lib/diffdrive_arduino/__init__.py -> /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive_arduino
+copying /home/tazimo/tazimo_ws/build/diffdrive_arduino/build/lib/diffdrive_arduino/diffdrive_node.py -> /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive_arduino
+byte-compiling /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive_arduino/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive_arduino/diffdrive_node.py to diffdrive_node.cpython-310.pyc
+running install_data
+copying resource/diffdrive_arduino -> /home/tazimo/tazimo_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages
+copying package.xml -> /home/tazimo/tazimo_ws/install/diffdrive_arduino/share/diffdrive_arduino
+running install_egg_info
+Copying ../../build/diffdrive_arduino/diffdrive_arduino.egg-info to /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/python3.10/site-packages/diffdrive_arduino-0.0.0-py3.10.egg-info
+running install_scripts
+Installing diffdrive_node script to /home/tazimo/tazimo_ws/install/diffdrive_arduino/lib/diffdrive_arduino
+writing list of installed files to '/home/tazimo/tazimo_ws/build/diffdrive_arduino/install.log'
