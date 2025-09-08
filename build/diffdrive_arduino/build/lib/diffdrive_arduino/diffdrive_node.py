@@ -17,9 +17,9 @@ class DiffDriveArduino(Node):
         # Declare parameters (with defaults)
         self.declare_parameter('serial_port', '/dev/ttyACM0')
         self.declare_parameter('baudrate', 115200)
-        self.declare_parameter('wheel_radius', 0.033)
-        self.declare_parameter('wheel_separation', 0.160)
-        self.declare_parameter('ticks_per_revolution', 620)
+        self.declare_parameter('wheel_radius', 0.0325)
+        self.declare_parameter('wheel_separation', 0.218)
+        self.declare_parameter('ticks_per_revolution', 70)
         self.declare_parameter('publish_rate', 30.0)  # Hz
 
         # Load parameters
@@ -84,9 +84,15 @@ class DiffDriveArduino(Node):
             line = self.arduino.readline().decode('utf-8').strip()
             if line.startswith("E"):
                 parts = line.split()
-                left_ticks = int(parts[1])
-                right_ticks = int(parts[2])
+                right_ticks = int(parts[1])   # first value is Right
+                left_ticks  = int(parts[2])   # second value is Left
                 return left_ticks, right_ticks
+
+            # if line.startswith("E"):
+            #     parts = line.split()
+            #     left_ticks = int(parts[1])
+            #     right_ticks = int(parts[2])
+            #     return left_ticks, right_ticks
         except Exception:
             return None, None
         return None, None
